@@ -1,0 +1,21 @@
+{
+  "name": "ts-code-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HailEris/ts-code-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HailEris/ts-code-challenge/issues"
+  },
+  "homepage": "https://github.com/HailEris/ts-code-challenge#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.29.1"
+  }
+}
