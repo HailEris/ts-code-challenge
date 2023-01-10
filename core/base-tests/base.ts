@@ -1,7 +1,7 @@
 import { chromium, test as base } from "@playwright/test";
 import path from "path";
-import { BasePage } from "../pages";
-import { TestFixtures } from "./types";
+import { BasePage, CartPage } from "../pages/cartPage";
+// import { TestFixtures } from "./types";
 
 
 context: async ({}, use) => {
