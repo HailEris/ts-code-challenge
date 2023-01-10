@@ -73,7 +73,7 @@ test.describe.parallel("Validate price consistency: Qty 1", () => {
 //     Validate successful navigation to Cart Subtotal View
 //     Validate Price == echoDotPrice * 3
 //     Click "Go to Cart" button
-//     Validate successful navigation to Shopping Cart view
+//     Validate successful navigation to Shopping Cart view 
 //     Validate Price == echoDotPrice * 3
 //     end
 
