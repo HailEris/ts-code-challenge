@@ -16,7 +16,7 @@ test.describe.parallel("Target Price Consistency Qty: 1, Added from Search Resul
         await page.locator('[data-test="espDrawerContent-declineCoverageButton"]').click();
         await page.locator('[data-test="\\@web\\/CartLink"]').click();
         console.log(page.getByTestId('data-test=cartItem-price'));
-        expect (cartPage.itemPrice.first()).toHaveText(priceElement);
+        expect (cartPage.itemPrice).toHaveText(priceElement);
         expect (cartPage.subtotalPrice).toHaveText(priceElement);
     });
 })

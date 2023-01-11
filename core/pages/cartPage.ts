@@ -8,7 +8,7 @@ export class CartPage {
     constructor(page: Page) {
         this.page = page;
         this.itemPrice = page.getByTestId('cartItem-price');
-        this.subtotalPrice = page.getByTestId('cart-summary-subTotal').locator('p').nth(1);
+        this.subtotalPrice = page.getByTestId('cart-summary-subTotal').locator('p');
     }
 
 }
